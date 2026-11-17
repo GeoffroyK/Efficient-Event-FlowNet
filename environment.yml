@@ -1,0 +1,23 @@
+name: qflownet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch==2.6.0+cu118
+      - torchvision==0.21.0+cu118
+      - triton==3.2.0
+      - spikingjelly @ https://github.com/fangwei123456/spikingjelly/archive/be80b86a2eaf64f4b4e5891fd7ca870a37b38ef9.zip
+      - numpy==1.26.4
+      - h5py==3.12.1
+      - hdf5plugin==5.1.0
+      - opencv-python==4.10.0.84
+      - imageio==2.37.3
+      - matplotlib==3.9.2
+      - pandas==2.2.2
+      - numba==0.60.0
+      - mkl-service
+      - omegaconf==2.3.0
+      - mlflow
