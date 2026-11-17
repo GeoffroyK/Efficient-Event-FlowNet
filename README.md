@@ -6,8 +6,8 @@ Val EPE 1.49 px on the 5 DSEC val recordings.
 ## 1. Dependencies
 
 ```bash
-conda env create -f environment_eventvpr.yml
-conda activate eventvpr
+conda env create -f environment.yml
+conda activate qflownet
 ```
 
 Runs on GPU or CPU.
